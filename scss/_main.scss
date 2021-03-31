@@ -1,0 +1,386 @@
+@import "variables";
+* {
+    box-sizing: border-box;
+}
+.ourservices {
+    font-size: 50px;
+    font-family: $primary-font;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    width: 485px;
+    padding-right: 83px;
+    margin-bottom: 95px;
+}
+.card {
+    width: 168px;
+}
+.cardicon {
+    margin-bottom: 45px;
+    width: 165px;
+    height: 155px;
+}
+@mixin cardalign {
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heart {
+    background-image: url($path + "heart.png");
+    @include cardalign;
+}
+.cardtext {
+    color: #161616;
+    font-family: $pt-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    text-align: center;
+}
+
+.tools {
+    background-image: url($path + "tools.png");
+    width: 137px;
+    @include cardalign;
+}
+.bulb {
+    background-image: url($path + "bulb.png");
+    width: 116px;
+    height: 155px;
+    @include cardalign;
+}
+.compass {
+    background-image: url($path + "compass.png");
+   
+    @include cardalign;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+.ourstory {
+    background-color: $pink;
+}
+.storyflex {
+    display: flex;
+}
+.storytext {
+    color: #ffffff;
+    font-family: $pt-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    width: 601px;
+    padding-top: 34px;
+    padding-bottom: 42px;
+}
+.storybutton {
+    margin-left: auto;
+    text-decoration: none;
+    color: #161616;
+    font-family: $primary-font;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+    padding: 21px 65px;
+    background-color: $beige;
+    align-self: center;
+
+    &:hover {
+        color: white;
+        background-color: black;
+    }
+}
+.pricing {
+    background-color: $beige;
+}
+.pricingheader {
+    color: #1f1f1f;
+    font-family: $primary-font;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 50px;
+    padding-bottom: 42px;
+    text-align: center;
+}
+.pricingtag {
+    width: 318px;
+    background-color: white;
+}
+.name {
+    font-family: $pt-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.44px;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 28px;
+}
+.price {
+    color: $pink;
+    font-family: $primary-font;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: -1.2px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.specs {
+    color: #161616;
+    font-family: $pt-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    margin-bottom: 10px;
+
+    &:last-child {
+    margin-bottom: 42px;
+    }
+}
+.triangle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 50px solid transparent;
+    border-left: 50px solid #b4a993;
+    border-top: 50px solid #b4a993;
+}
+.position {
+    position:relative;
+}
+.absolute {
+    position: absolute;
+}
+.triangletext {
+    position: absolute;
+    top: 20px;
+    left: 2px;
+    transform:rotate(-45deg);
+    color: #1f1f1f;
+    font-family: $pt-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.97px;
+    letter-spacing: -0.32px;
+}
+.signup {
+    color: #161616;
+    font-family: $primary-font;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+    padding: 15px 81px;
+    background-color: #e3d5b8;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+
+    &:hover{
+        color: white;
+        background-color: $pink;
+    }
+}
+.pricingbtn {
+   text-align: center;
+}
+.plancards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width: 1001px){
+    .container {
+        max-width: 1001px;
+        width: 100%;
+    }
+    .ourservices {
+        font-size: 42px;
+        line-height: 50px;
+        width: 485px;
+        margin-bottom: 45px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding: 0;
+    }
+    .card {
+        width: calc((100%-30px)/2);
+        margin-bottom: 40px;
+    }
+    .cardicon {
+        margin-bottom: 35px;
+    }
+    .storytext {
+        font-size: 18px;
+        line-height: 22px;
+        width: 550px;
+        padding: 30px 25px 35px 25px;
+    }
+    .storybutton {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 16px 35px;
+        align-self: center;
+        display: block;
+        margin-right: 25px;
+    }
+    
+    .pricingheader {
+        font-size: 42px;
+        line-height: 46px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pricingtag {
+        width: calc((100%-30px)/3);
+        background-color: white;
+        padding-bottom: 30px;
+    }
+    .name {
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .price {
+        font-size: 48px;
+        line-height: 54px;
+        text-align: center;
+        margin-bottom: 23px;
+    }
+    .specs {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 10px;
+    
+        &:last-child {
+        margin-bottom: 52px;
+        }
+    }
+    .triangle {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border: 40px solid transparent;
+        border-left: 40px solid #b4a993;
+        border-top: 40px solid #b4a993;
+    }
+    .signup {
+        color: #161616;
+        font-family: $primary-font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: -0.44px;
+        padding: 10px 50px;
+        background-color: #e3d5b8;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .trybtn {
+        padding: 10px 70px;
+    }
+}
+@media (max-width: 769px) {
+    .container {
+        max-width: 769px;
+        width: 100%;
+    }
+    .ourservices {
+        font-size: 24px;
+        line-height: 28px;
+        width: 180px;
+        margin-bottom: 25px;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cardicon {
+        margin-bottom: 35px;
+    }
+    .cards {
+        margin-bottom: 30px;
+    }
+    .storytext {
+        font-size: 16px;
+        line-height: 20px;
+        width: 600px;
+        padding: 20px 22px 30px 20px;
+    }
+    .storybutton {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 10px 25px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    
+    .pricingheader {
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .plancards {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricingtag {
+        width: 90%;
+        background-color: white;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 30px;
+        border: 2px solid #cac0ab;
+    }
+    .name {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .price {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 23px;
+    }
+    .specs {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    
+        &:last-child {
+        margin-bottom: 32px;
+        }
+    }
+    .signup {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: -0.44px;
+        padding: 10px 50px;
+        margin-bottom: 24px;
+    }
+}

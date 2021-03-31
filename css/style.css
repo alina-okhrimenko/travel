@@ -1,0 +1,1253 @@
+@charset "UTF-8";
+/* line 2, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* line 11, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.bgimg {
+  background-image: url("../images/Group_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 16, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.bgcolor {
+  background-color: rgba(206, 196, 175, 0.8);
+}
+
+/* line 19, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 24, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.logonav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 38px;
+  padding-bottom: 163px;
+}
+
+/* line 30, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.nav {
+  margin-left: auto;
+  padding-top: 33px;
+  padding-bottom: 15px;
+}
+
+/* line 35, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.navitem {
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #1b1b1b;
+  letter-spacing: -0.36px;
+  padding: 15px;
+}
+
+/* line 47, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.navitem:hover {
+  color: white;
+  background-color: #d03958;
+  border-radius: 5px;
+}
+
+/* line 54, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.request {
+  background-color: #d03958;
+  margin-left: auto;
+  position: absolute;
+  left: 593px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 62, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.travelis {
+  display: flex;
+  position: relative;
+}
+
+/* line 66, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.topheader {
+  width: 493px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1.8px;
+  margin-bottom: 47px;
+}
+
+/* line 76, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.pink {
+  color: #d03958;
+}
+
+/* line 79, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.headertext {
+  width: 466px;
+  color: #161616;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  margin-bottom: 154px;
+}
+
+/* line 89, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.formheader {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  margin-top: 31px;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+/* line 101, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.input {
+  padding: 20px;
+  width: 353px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #b5b5b5;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.4px;
+}
+
+/* line 113, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.input-container {
+  margin-bottom: 16px;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+/* line 119, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.checkbox {
+  position: relative;
+  width: 20px;
+  border-radius: 2px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 23px;
+}
+
+/* line 129, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.checkbox__field {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+/* line 138, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.checkbox__field:checked + .checkbox__fake {
+  background-image: url("../images/checked1.png");
+  background-color: pink;
+}
+
+/* line 143, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.checkbox__fake {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: center;
+}
+
+/* line 153, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.label {
+  color: #ffffff;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 164, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.termsand {
+  padding-top: 11px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* line 170, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.btn {
+  width: 353px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center;
+  border: none;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+}
+
+/* line 188, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.btn:hover {
+  cursor: pointer;
+}
+
+/* line 192, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+.header {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1001px) {
+  /* line 197, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .container {
+    max-width: 1001px;
+    width: 100%;
+  }
+  /* line 201, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .header {
+    margin-bottom: 560px;
+  }
+  /* line 204, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .logo {
+    padding-left: 20px;
+    display: flex;
+    align-self: center;
+    margin-right: 50px;
+  }
+  /* line 210, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .logonav {
+    padding-bottom: 90px;
+  }
+  /* line 213, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .toptext {
+    padding-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+  /* line 220, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .request {
+    top: 140%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 226, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 769px) {
+  /* line 233, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .container {
+    max-width: 769px;
+    width: 100%;
+  }
+  /* line 237, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .logonav {
+    padding-bottom: 30px;
+  }
+  /* line 240, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .topheader {
+    width: 300px;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+    margin-bottom: 25px;
+  }
+  /* line 247, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .headertext {
+    width: 260px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 54px;
+    text-align: justify;
+  }
+  /* line 255, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .navitem {
+    margin-right: 5px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 12px;
+  }
+  /* line 261, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .logo {
+    width: 100px;
+    height: 40px;
+  }
+  /* line 265, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .request {
+    max-width: 350px;
+  }
+  /* line 268, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .input {
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+  }
+  /* line 276, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .btn {
+    max-width: 200px;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+  }
+  /* line 286, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .formheader {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 292, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .request {
+    top: 150%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 298, D:/Hillel/17. флексы/Travel/scss/_header.scss */
+  .header {
+    margin-bottom: 380px;
+  }
+}
+
+/* line 2, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.ourservices {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  width: 485px;
+  padding-right: 83px;
+  margin-bottom: 95px;
+}
+
+/* line 16, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.card {
+  width: 168px;
+}
+
+/* line 19, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.cardicon {
+  margin-bottom: 45px;
+  width: 165px;
+  height: 155px;
+}
+
+/* line 29, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.heart {
+  background-image: url("../images/heart.png");
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 33, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.cardtext {
+  color: #161616;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+
+/* line 43, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.tools {
+  background-image: url("../images/tools.png");
+  width: 137px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 48, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.bulb {
+  background-image: url("../images/bulb.png");
+  width: 116px;
+  height: 155px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 54, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.compass {
+  background-image: url("../images/compass.png");
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 59, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+/* line 66, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.ourstory {
+  background-color: #d03958;
+}
+
+/* line 69, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.storyflex {
+  display: flex;
+}
+
+/* line 72, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.storytext {
+  color: #ffffff;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  width: 601px;
+  padding-top: 34px;
+  padding-bottom: 42px;
+}
+
+/* line 83, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.storybutton {
+  margin-left: auto;
+  text-decoration: none;
+  color: #161616;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  padding: 21px 65px;
+  background-color: #e3d5b8;
+  align-self: center;
+}
+
+/* line 97, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.storybutton:hover {
+  color: white;
+  background-color: black;
+}
+
+/* line 102, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.pricing {
+  background-color: #e3d5b8;
+}
+
+/* line 105, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.pricingheader {
+  color: #1f1f1f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 50px;
+  padding-bottom: 42px;
+  text-align: center;
+}
+
+/* line 117, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.pricingtag {
+  width: 318px;
+  background-color: white;
+}
+
+/* line 121, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.name {
+  font-family: "PT Serif", serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 28px;
+}
+
+/* line 131, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.price {
+  color: #d03958;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1.2px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+/* line 142, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.specs {
+  color: #161616;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* line 152, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.specs:last-child {
+  margin-bottom: 42px;
+}
+
+/* line 156, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.triangle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 50px solid transparent;
+  border-left: 50px solid #b4a993;
+  border-top: 50px solid #b4a993;
+}
+
+/* line 164, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.position {
+  position: relative;
+}
+
+/* line 167, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 170, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.triangletext {
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  transform: rotate(-45deg);
+  color: #1f1f1f;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18.97px;
+  letter-spacing: -0.32px;
+}
+
+/* line 182, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.signup {
+  color: #161616;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  padding: 15px 81px;
+  background-color: #e3d5b8;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* line 196, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.signup:hover {
+  color: white;
+  background-color: #d03958;
+}
+
+/* line 201, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.pricingbtn {
+  text-align: center;
+}
+
+/* line 204, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+.plancards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 1001px) {
+  /* line 210, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .container {
+    max-width: 1001px;
+    width: 100%;
+  }
+  /* line 214, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .ourservices {
+    font-size: 42px;
+    line-height: 50px;
+    width: 485px;
+    margin-bottom: 45px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 0;
+  }
+  /* line 225, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .card {
+    width: calc((100%-30px)/2);
+    margin-bottom: 40px;
+  }
+  /* line 229, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .cardicon {
+    margin-bottom: 35px;
+  }
+  /* line 232, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .storytext {
+    font-size: 18px;
+    line-height: 22px;
+    width: 550px;
+    padding: 30px 25px 35px 25px;
+  }
+  /* line 238, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .storybutton {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px 35px;
+    align-self: center;
+    display: block;
+    margin-right: 25px;
+  }
+  /* line 247, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .pricingheader {
+    font-size: 42px;
+    line-height: 46px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 253, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .pricingtag {
+    width: calc((100%-30px)/3);
+    background-color: white;
+    padding-bottom: 30px;
+  }
+  /* line 258, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .name {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  /* line 264, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .price {
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  /* line 270, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .specs {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  /* line 276, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .specs:last-child {
+    margin-bottom: 52px;
+  }
+  /* line 280, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .triangle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 40px solid transparent;
+    border-left: 40px solid #b4a993;
+    border-top: 40px solid #b4a993;
+  }
+  /* line 288, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .signup {
+    color: #161616;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.44px;
+    padding: 10px 50px;
+    background-color: #e3d5b8;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  /* line 300, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .trybtn {
+    padding: 10px 70px;
+  }
+}
+
+@media (max-width: 769px) {
+  /* line 305, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .container {
+    max-width: 769px;
+    width: 100%;
+  }
+  /* line 309, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .ourservices {
+    font-size: 24px;
+    line-height: 28px;
+    width: 180px;
+    margin-bottom: 25px;
+  }
+  /* line 315, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* line 319, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .cardicon {
+    margin-bottom: 35px;
+  }
+  /* line 322, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .cards {
+    margin-bottom: 30px;
+  }
+  /* line 325, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .storytext {
+    font-size: 16px;
+    line-height: 20px;
+    width: 600px;
+    padding: 20px 22px 30px 20px;
+  }
+  /* line 331, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .storybutton {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 25px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  /* line 339, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .pricingheader {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 345, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .plancards {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 349, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .pricingtag {
+    width: 90%;
+    background-color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+    border: 2px solid #cac0ab;
+  }
+  /* line 358, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .name {
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 364, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .price {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 23px;
+  }
+  /* line 369, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .specs {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  /* line 374, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .specs:last-child {
+    margin-bottom: 32px;
+  }
+  /* line 378, D:/Hillel/17. флексы/Travel/scss/_main.scss */
+  .signup {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.44px;
+    padding: 10px 50px;
+    margin-bottom: 24px;
+  }
+}
+
+/* line 2, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+.footer {
+  background-color: black;
+}
+
+/* line 8, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+.copyright {
+  color: #ffffff;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* line 18, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+.containerflex {
+  display: flex;
+}
+
+/* line 21, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+.logofooter {
+  margin-left: auto;
+  align-self: center;
+}
+
+@media (max-width: 769px) {
+  /* line 26, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+  .container {
+    max-width: 769px;
+    width: 100%;
+  }
+  /* line 30, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+  .copyright {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  /* line 38, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+  .logofooter {
+    width: 50px;
+    height: 35px;
+    display: block;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 1001px) {
+  /* line 46, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+  .container {
+    max-width: 1001px;
+    width: 100%;
+  }
+  /* line 50, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+  .copyright {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  /* line 54, D:/Hillel/17. флексы/Travel/scss/_footer.scss */
+  .logofooter {
+    width: 70px;
+    height: 45px;
+    display: block;
+    margin-right: 35px;
+  }
+}
+
+/* line 2, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.testgheader {
+  color: #1f1f1f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+/* line 15, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.tgheader {
+  color: #d03958;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* line 26, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.tgflex {
+  display: flex;
+}
+
+/* line 29, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.gallery {
+  margin-left: auto;
+  padding-top: 126px;
+  width: 416px;
+  margin-bottom: 119px;
+}
+
+/* line 36, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.testimonials {
+  width: 500px;
+  padding-top: 126px;
+  position: relative;
+}
+
+/* line 41, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.feedback {
+  width: 439px;
+  margin-bottom: 38px;
+  position: relative;
+}
+
+/* line 46, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.feedbacktext {
+  color: #161616;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  padding: 22px 77px 20px 26px;
+}
+
+/* line 55, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.nameposition {
+  color: #d03958;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  padding: 0px 110px 23px 24px;
+}
+
+/* line 64, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.beige {
+  background-color: #e3d5b8;
+  margin-bottom: 119px;
+}
+
+/* line 69, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.avatar {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 2px -2px 10px 4px #e7e3db;
+}
+
+/* line 78, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.man {
+  background-image: url("../images/man.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 381px;
+  bottom: 37px;
+}
+
+/* line 85, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.woman {
+  background-image: url("../images/woman.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 381px;
+  top: 19px;
+}
+
+/* line 92, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.viewmorepictures {
+  color: #d03958;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+}
+
+/* line 102, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.linkmore {
+  text-align: center;
+}
+
+/* line 105, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.galleryitem {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 2px -2px 10px 4px #e7e3db;
+  margin-bottom: 28px;
+  margin-right: 36px;
+}
+
+/* line 115, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.one {
+  background-image: url("../images/1.png");
+  background-repeat: no-repeat;
+}
+
+/* line 119, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.two {
+  background-image: url("../images/2.png");
+  background-repeat: no-repeat;
+}
+
+/* line 123, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.three {
+  background-image: url("../images/3.png");
+  background-repeat: no-repeat;
+  margin-right: 0px;
+}
+
+/* line 128, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.four {
+  background-image: url("../images/4.png");
+  background-repeat: no-repeat;
+}
+
+/* line 132, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.five {
+  background-image: url("../images/5.png");
+  background-repeat: no-repeat;
+}
+
+/* line 136, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.six {
+  background-image: url("../images/6.png");
+  background-repeat: no-repeat;
+  margin-right: 0px;
+}
+
+/* line 141, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+.gallarypics {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 1001px) {
+  /* line 149, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .container {
+    max-width: 1001px;
+    width: 100%;
+  }
+  /* line 153, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .testgheader {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  /* line 157, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .tgheader {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  /* line 163, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .tgflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 169, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 36px;
+    width: 416px;
+    margin-bottom: 25px;
+    margin-left: 0;
+  }
+  /* line 181, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .testimonials {
+    width: 500px;
+    padding-top: 36px;
+  }
+  /* line 186, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .beige {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 769px) {
+  /* line 191, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .container {
+    max-width: 769px;
+    width: 100%;
+  }
+  /* line 195, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .testgheader {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  /* line 199, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .tgheader {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  /* line 203, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .tgflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+  }
+  /* line 210, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .avatar {
+    width: 95px;
+    height: 95px;
+  }
+  /* line 214, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .woman {
+    top: 105px;
+    left: 115px;
+  }
+  /* line 218, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .man {
+    top: 150px;
+    left: 115px;
+  }
+  /* line 222, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    margin-bottom: 135px;
+  }
+  /* line 228, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 36px;
+    max-width: 350px;
+    margin-bottom: 25px;
+    margin-left: 0;
+  }
+  /* line 239, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .galleryitem {
+    margin-right: 15px;
+  }
+  /* line 242, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .gallarypics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /* line 248, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .viewmorepictures {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+  }
+  /* line 254, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .testimonials {
+    max-width: 350px;
+    padding-top: 36px;
+    padding-bottom: 60px;
+  }
+  /* line 259, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .feedbacktext {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 15px 10px 15px;
+  }
+  /* line 265, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .nameposition {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+    padding: 0px 60px 20px 20px;
+  }
+  /* line 272, D:/Hillel/17. флексы/Travel/scss/_testimonials.scss */
+  .beige {
+    margin-bottom: 25px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
